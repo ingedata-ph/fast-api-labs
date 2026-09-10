@@ -3,7 +3,7 @@
 ## 🎯 Ce que vous allez faire
 
 Votre `app/main.py` fait maintenant une centaine de lignes et mélange tout : les schémas,
-les routes, la fausse base de données. Ça tient encore… mais cet après-midi vous allez
+les routes, la fausse base de données. Ça tient encore… mais dans les prochains labs vous allez
 ajouter un modèle de ML, une base de données et des tests. **Il faut ranger maintenant.**
 
 Vous n'écrivez **aucune fonctionnalité nouvelle** dans ce lab : vous **déplacez** du code.
@@ -274,7 +274,7 @@ Pour l'obtenir, appelle `get_parametres()`. »*
 FastAPI appelle la fonction à votre place et **injecte** le résultat. C'est tout.
 Il n'y a aucune magie.
 
-> ### 🔑 `Depends` est la clé de toute la journée. Retenez ces deux usages :
+> ### 🔑 `Depends` est la clé de tout ce qui suit. Retenez ces deux usages :
 > - **Lab 6** : `Depends(get_moteur)` injectera le **modèle de ML** dans `/predict`.
 > - **Lab 9** : une seule ligne — `app.dependency_overrides[get_moteur] = faux_modele` —
 >   remplacera le vrai modèle par un faux **dans les tests**, sans toucher au code de l'API.

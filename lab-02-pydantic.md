@@ -5,9 +5,9 @@
 Recevoir des données **dans le corps d'une requête** (et non plus dans l'URL), en décrivant
 leur forme avec un **schéma Pydantic**.
 
-> ### C'est le lab le plus important de la journée après le Lab 6.
+> ### C'est l'un des labs les plus importants, juste après le Lab 6.
 > Le réflexe que vous construisez ici — **décrire la donnée avant de l'utiliser** — est
-> exactement celui qui protégera votre modèle de ML cet après-midi. Le schéma
+> exactement celui qui protégera votre modèle de ML. Le schéma
 > `MesureFleur` que vous écrivez maintenant sera **réutilisé tel quel** au Lab 6 comme
 > contrat d'entrée de `/predict`.
 
@@ -111,7 +111,7 @@ un `id` et une date.
 > l'attribue. Si vous n'aviez qu'un seul schéma, un client malin pourrait envoyer
 > `{"id": 999, ...}` et écraser vos données.
 >
-> On appelle ça un **DTO** (*Data Transfer Object*). Cet après-midi ce sera
+> On appelle ça un **DTO** (*Data Transfer Object*). Au Lab 6, ce sera
 > `FeaturesIris` en entrée et `ReponsePrediction` en sortie. **Même structure, même raison.**
 
 ---
@@ -122,7 +122,7 @@ Ajoutez une « fausse base de données » (une simple liste en mémoire) et deux
 à la fin du fichier :
 
 ```python
-# Notre "base de données" pour aujourd'hui : une liste en mémoire.
+# Notre "base de données" pour ces labs : une liste en mémoire.
 # Elle est vidée à chaque redémarrage du serveur — c'est normal, on branchera
 # une vraie base au Lab 8.
 mesures: list[MesureEnregistree] = []
@@ -236,7 +236,7 @@ seules les mesures valides ont été enregistrées.
 - `response_model` ne fait pas que documenter : il **filtre** réellement la réponse.
 - Le bon code HTTP compte : `201` pour une création, pas `200`.
 
-> ### 🔗 Le pont vers l'après-midi
+> ### 🔗 Le pont vers le Lab 6
 > Gardez `MesureFleur` sous les yeux. Au **Lab 6**, vous écrirez :
 > ```python
 > class FeaturesIris(MesureFleur):

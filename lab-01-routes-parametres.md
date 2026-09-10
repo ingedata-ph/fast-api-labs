@@ -219,7 +219,7 @@ def lire_fleur(fleur_id: int):
 - **Une annotation de type (`: int`) est une validation.** Vous n'avez écrit aucun `if`,
   aucun `try/except`, et pourtant votre API refuse déjà proprement les données invalides.
 - Ce `422` vient de **Pydantic**, la bibliothèque qui travaille sous le capot de FastAPI.
-  C'est exactement l'outil qu'on utilisera cet après-midi pour protéger le modèle de ML.
+  C'est exactement l'outil qu'on utilisera pour protéger le modèle de ML.
 - L'ordre de déclaration des routes compte.
 
 > ### 🤔 Le lien avec la suite

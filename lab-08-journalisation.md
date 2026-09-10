@@ -410,12 +410,12 @@ with Session(moteur_bdd) as s:
 - Le chemin de la base passe par la **configuration** — c'est ce qui rendra la persistance
   possible dans Docker au Lab 10.
 
-> ### ⚠️ Une limite à connaître (à ne pas corriger aujourd'hui)
+> ### ⚠️ Une limite à connaître (à ne pas corriger dans ce lab)
 > Écrire en base **à chaque prédiction, de façon synchrone**, ajoute de la latence : le
 > client attend que l'écriture soit terminée. Sur un service à fort trafic, on utiliserait
 > les **`BackgroundTasks`** de FastAPI, ou une file de messages (Kafka, RabbitMQ).
 >
-> Sachez que le problème existe. Aujourd'hui, à 1 ms d'écriture, ce n'en est pas un.
+> Sachez que le problème existe. Pour l'instant, à 1 ms d'écriture, ce n'en est pas un.
 
 ---
 

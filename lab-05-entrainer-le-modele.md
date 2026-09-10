@@ -142,7 +142,7 @@ Artefact écrit : /…/iris-api/artefacts/modele_iris.joblib (1.9 Ko)
 ```
 
 **Voilà. Le modèle fait 6 lignes utiles et pèse 2 Ko.**
-Tout le reste de la journée consiste à le rendre utilisable par quelqu'un d'autre que vous.
+Tout le reste des labs consiste à le rendre utilisable par quelqu'un d'autre que vous.
 
 ---
 

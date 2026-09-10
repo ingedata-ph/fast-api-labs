@@ -4,7 +4,7 @@ Bienvenue ! Vous allez construire **`iris-api`** : un vrai service web qui
 expose un modèle de Machine Learning, de la première ligne de code jusqu'au conteneur Docker.
 
 > **Le modèle fait juste quelques lignes. Le travail d'industrialisation en fait beaucoup.**
-> Car Le sujet de la journée n'est pas le modèle : c'est **tout ce qu'il y a
+> Car le sujet de ces labs n'est pas le modèle : c'est **tout ce qu'il y a
 > autour** — validation des entrées, contrat d'API, chargement, robustesse, traçabilité,
 > tests, déploiement.
 
@@ -71,7 +71,7 @@ Puis **fermez et rouvrez votre terminal**, sinon la commande `uv` reste introuva
 
 ---
 
-## Le vocabulaire de la journée
+## Le vocabulaire à connaître
 
 Vous allez croiser ces mots en permanence. Gardez cette liste sous la main.
 
@@ -90,7 +90,7 @@ Vous allez croiser ces mots en permanence. Gardez cette liste sous la main.
 
 ---
 
-## Où vous arriverez ce soir
+## Où vous arriverez à la fin des labs
 
 ```
 iris-api/

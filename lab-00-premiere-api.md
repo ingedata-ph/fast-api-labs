@@ -110,7 +110,7 @@ def racine():
     return {"service": "iris-api", "statut": "ok"}
 ```
 
-**Décortiquons ces 10 lignes**, parce que tout le reste de la journée en découle :
+**Décortiquons ces 10 lignes**, parce que tout le reste des labs en découle :
 
 | Ligne | Ce qu'elle fait |
 |---|---|
@@ -141,7 +141,7 @@ INFO   Application startup complete.
 
 > **`fastapi dev` = mode développement.** Le serveur surveille vos fichiers : dès que vous
 > sauvegardez, il redémarre tout seul. Vous n'aurez plus jamais à le relancer à la main
-> aujourd'hui — sauf indication contraire.
+> pour la suite des labs — sauf indication contraire.
 >
 > **Laissez ce terminal ouvert.** Le serveur tourne dedans. Pour toutes les autres commandes,
 > **ouvrez un second terminal**.

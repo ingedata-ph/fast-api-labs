@@ -2,7 +2,7 @@
 
 ## 🎯 Ce que vous allez faire
 
-**C'est le lab central de la journée.** Votre modèle va cesser d'être un fichier sur votre
+**C'est le lab central du cours.** Votre modèle va cesser d'être un fichier sur votre
 disque pour devenir un **service** que n'importe qui peut appeler.
 
 Vous allez :

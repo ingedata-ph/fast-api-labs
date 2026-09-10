@@ -191,7 +191,7 @@ Complétez ce tableau à partir de ce que vous venez d'observer. **C'est le livr
   mêmes réactions côté client et côté supervision.
 - Les traces d'erreur restent **côté serveur**. Jamais dans la réponse.
 
-> ### 🔗 Le pont vers l'après-midi
+> ### 🔗 Le pont vers le Lab 7
 > Au **Lab 7**, on se posera la même question pour le modèle de ML :
 > *si l'inférence échoue, quel code renvoyer ?*
 > Réponse : **`503 Service Unavailable`** — « le service est temporairement incapable de

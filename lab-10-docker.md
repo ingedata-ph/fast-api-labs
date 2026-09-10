@@ -218,7 +218,7 @@ Attendez ~15 secondes : la colonne `STATUS` doit afficher **`Up ... (healthy)`**
 
 ---
 
-## Étape 5 — La validation finale de la journée · 5 min
+## Étape 5 — La validation finale · 5 min
 
 **C'est votre « soutenance ». Exécutez ces quatre commandes.**
 
@@ -310,7 +310,7 @@ uv export --no-dev --format requirements-txt > requirements.txt
 
 ## 🎉 Vous y êtes
 
-Récapitulons la journée. Vous êtes parti d'un modèle dans un notebook. Vous avez :
+Récapitulons le parcours. Vous êtes parti d'un modèle dans un notebook. Vous avez :
 
 | Lab | Ce que vous avez ajouté |
 |---|---|
