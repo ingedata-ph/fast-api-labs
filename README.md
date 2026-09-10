@@ -1,6 +1,6 @@
 # Labs — Industrialiser un modèle de Machine Learning avec FastAPI
 
-Bienvenue ! Cet après-midi, vous allez construire **`iris-api`** : un vrai service web qui
+Bienvenue ! Vous allez construire **`iris-api`** : un vrai service web qui
 expose un modèle de Machine Learning, de la première ligne de code jusqu'au conteneur Docker.
 
 > **Le modèle fait 6 lignes. Le travail d'industrialisation en fait 300.**
