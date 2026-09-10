@@ -20,12 +20,9 @@ Les labs se font **dans l'ordre**. Chacun part de l'état où le précédent s'e
    qu'on repère les détails (les deux-points, l'indentation, les annotations de type).
 4. À la fin de chaque lab, faites la section **« ✅ Vérifiez que ça marche »**.
    Ne passez pas au suivant tant qu'elle n'est pas verte.
-5. Si vous êtes bloqué·e plus de 5 minutes : levez la main. On n'est pas là pour perdre
-   30 minutes sur une virgule.
-
-Chaque lab contient une section **« 🔧 Si ça ne marche pas »** avec les erreurs les plus
-fréquentes et leur solution. Lisez-la avant d'appeler à l'aide, il y a de fortes chances
-que votre message d'erreur y soit.
+5. Chaque lab contient une section **« 🔧 Si ça ne marche pas »** avec les erreurs les plus
+   fréquentes et leur solution. Lisez-la avant d'appeler à l'aide, il y a de fortes chances
+   que votre message d'erreur y soit.
 
 ---
 
