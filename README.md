@@ -16,7 +16,7 @@ Les labs se font **dans l'ordre**. Chacun part de l'état où le précédent s'e
 
 1. Ouvrez le fichier du lab.
 2. Lisez **« Ce que vous allez faire »** avant de taper quoi que ce soit.
-3. Suivez les étapes une par une. **Tapez le code, ne le copiez-collez pas** : c'est en tapant
+3. Suivez les étapes une par une. **L'idéal est de Taper le code, au lieu de faire du copier-coller** : c'est en tapant
    qu'on repère les détails (les deux-points, l'indentation, les annotations de type).
 4. À la fin de chaque lab, faites la section **« ✅ Vérifiez que ça marche »**.
    Ne passez pas au suivant tant qu'elle n'est pas verte.
