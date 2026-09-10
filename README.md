@@ -3,8 +3,8 @@
 Bienvenue ! Vous allez construire **`iris-api`** : un vrai service web qui
 expose un modèle de Machine Learning, de la première ligne de code jusqu'au conteneur Docker.
 
-> **Le modèle fait 6 lignes. Le travail d'industrialisation en fait 300.**
-> C'est ça, le métier. Le sujet de la journée n'est pas le modèle : c'est **tout ce qu'il y a
+> **Le modèle fait juste quelques lignes. Le travail d'industrialisation en fait beaucoup.**
+> Car Le sujet de la journée n'est pas le modèle : c'est **tout ce qu'il y a
 > autour** — validation des entrées, contrat d'API, chargement, robustesse, traçabilité,
 > tests, déploiement.
 
