@@ -292,7 +292,7 @@ docker compose down
 
 ### Variante sans `uv` dans l'image
 
-Si `uv` pose problème en salle, remplacez les trois lignes `uv` du Dockerfile par :
+Si `uv` pose problème, remplacez les trois lignes `uv` du Dockerfile par :
 
 ```dockerfile
 COPY requirements.txt ./
