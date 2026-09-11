@@ -1,4 +1,4 @@
-# Lab 8 — Traçabilité : journaliser les prédictions · 30 min
+# Lab 8 — Traçabilité : journaliser les prédictions · 30 min 
 
 ## 🎯 Ce que vous allez faire
 
