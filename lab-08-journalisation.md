@@ -32,9 +32,7 @@ uv add sqlmodel
 ```
 
 > **SQLModel** combine Pydantic (validation) et SQLAlchemy (base de données). Une même classe
-> décrit à la fois **la table SQL** et **le schéma de données**. C'est l'outil que vous avez
-> déjà croisé dans `tuto.md`.
-
+> décrit à la fois **la table SQL** et **le schéma de données**. 
 ---
 
 ## Étape 2 — Ajouter le chemin de la base à la configuration
