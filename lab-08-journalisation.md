@@ -5,9 +5,6 @@
 Enregistrer **chaque prédiction** dans une base de données SQLite : les mesures reçues, la
 classe prédite, la confiance, la version du modèle, l'horodatage et la **durée d'inférence**.
 
-Vous réutilisez exactement le SQLModel vu dans `tuto.md` — mais cette fois pour un vrai
-besoin d'industrialisation.
-
 **Point de départ** : Lab 7 terminé.
 
 ---
